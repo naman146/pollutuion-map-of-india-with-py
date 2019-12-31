@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a18137a9bce5411db10d40ba2ceb807c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a18137a9bce5411db10d40ba2ceb807c" ></div>
+        
+</body>
+<script>    
+    
+            var map_a18137a9bce5411db10d40ba2ceb807c = L.map(
+                "map_a18137a9bce5411db10d40ba2ceb807c",
+                {
+                    center: [28.6517178, 77.2219388],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e25b82decee445fa65e55a316f4dde2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a18137a9bce5411db10d40ba2ceb807c);
+        
+    
+            var feature_group_579fa59488f243fe9636bc88e69c1b43 = L.featureGroup(
+                {}
+            ).addTo(map_a18137a9bce5411db10d40ba2ceb807c);
+        
+    
+            var circle_marker_60c10247c062497d86d13104d3d4e5e3 = L.circleMarker(
+                [27.1752554, 78.0098161],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_6ba3e855e47f4cd3acd3bf11e323ca1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a8ea6b8efe44644b0fb1a8fe4f55a19 = $(`<div id="html_7a8ea6b8efe44644b0fb1a8fe4f55a19" style="width: 100.0%; height: 100.0%;">Agra,India Air Quality 200 in year 2010  27.1752554,78.0098161</div>`)[0];
+            popup_6ba3e855e47f4cd3acd3bf11e323ca1f.setContent(html_7a8ea6b8efe44644b0fb1a8fe4f55a19);
+        
+
+        circle_marker_60c10247c062497d86d13104d3d4e5e3.bindPopup(popup_6ba3e855e47f4cd3acd3bf11e323ca1f)
+        ;
+
+        
+    
+    
+            var circle_marker_93fdc890200a41da9179b118ba836ab4 = L.circleMarker(
+                [23.0216238, 72.5797068],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5efb0bbb1492499f840e2f5262a3bd4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d2488d776384b87a78891fd97e940d0 = $(`<div id="html_9d2488d776384b87a78891fd97e940d0" style="width: 100.0%; height: 100.0%;">Ahmedabad,India Air Quality 67 in year 2011  23.0216238,72.5797068</div>`)[0];
+            popup_5efb0bbb1492499f840e2f5262a3bd4b.setContent(html_9d2488d776384b87a78891fd97e940d0);
+        
+
+        circle_marker_93fdc890200a41da9179b118ba836ab4.bindPopup(popup_5efb0bbb1492499f840e2f5262a3bd4b)
+        ;
+
+        
+    
+    
+            var circle_marker_e0f51b7e246842a0bec651a319c49f80 = L.circleMarker(
+                [23.7414092, 92.7209297],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_18e185b7b3f646468ef049882643f530 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_349a6a3afa974c7e99d0d32f8825b930 = $(`<div id="html_349a6a3afa974c7e99d0d32f8825b930" style="width: 100.0%; height: 100.0%;">Aizawl,India Air Quality 55 in year 2012  23.7414092,92.7209297</div>`)[0];
+            popup_18e185b7b3f646468ef049882643f530.setContent(html_349a6a3afa974c7e99d0d32f8825b930);
+        
+
+        circle_marker_e0f51b7e246842a0bec651a319c49f80.bindPopup(popup_18e185b7b3f646468ef049882643f530)
+        ;
+
+        
+    
+    
+            var circle_marker_0d6c7943333f430c89c53425f5da7715 = L.circleMarker(
+                [9.460189, 76.28433466431],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0187da7d9e3e4e1c8ac2af1bc8ef41c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eceb7095cf14da4ab3e062cb3328b1d = $(`<div id="html_4eceb7095cf14da4ab3e062cb3328b1d" style="width: 100.0%; height: 100.0%;">Alappuzha,India Air Quality 46 in year 2012  9.460189,76.28433466431</div>`)[0];
+            popup_0187da7d9e3e4e1c8ac2af1bc8ef41c3.setContent(html_4eceb7095cf14da4ab3e062cb3328b1d);
+        
+
+        circle_marker_0d6c7943333f430c89c53425f5da7715.bindPopup(popup_0187da7d9e3e4e1c8ac2af1bc8ef41c3)
+        ;
+
+        
+    
+    
+            var circle_marker_521017ed7ffc4f81b57eb9edd61d7ac4 = L.circleMarker(
+                [25.4381302, 81.8338005],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_e16baa5c367e4ceabae3083553241ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f26b10ee977244ac98a7bbe473b0bd90 = $(`<div id="html_f26b10ee977244ac98a7bbe473b0bd90" style="width: 100.0%; height: 100.0%;">Allahabad,India Air Quality 202 in year 2010  25.4381302,81.8338005</div>`)[0];
+            popup_e16baa5c367e4ceabae3083553241ed3.setContent(html_f26b10ee977244ac98a7bbe473b0bd90);
+        
+
+        circle_marker_521017ed7ffc4f81b57eb9edd61d7ac4.bindPopup(popup_e16baa5c367e4ceabae3083553241ed3)
+        ;
+
+        
+    
+    
+            var circle_marker_dcf44474fa76491baffa302c0a3ccae8 = L.circleMarker(
+                [27.5, 76.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_4bbf8f1fbc064fa6802e25bd36f30b0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eb6b31a23294b0ba892344e001d8236 = $(`<div id="html_1eb6b31a23294b0ba892344e001d8236" style="width: 100.0%; height: 100.0%;">Alwar,India Air Quality 86 in year 2011  27.5,76.5</div>`)[0];
+            popup_4bbf8f1fbc064fa6802e25bd36f30b0b.setContent(html_1eb6b31a23294b0ba892344e001d8236);
+        
+
+        circle_marker_dcf44474fa76491baffa302c0a3ccae8.bindPopup(popup_4bbf8f1fbc064fa6802e25bd36f30b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_3dfdfda0ee0f4c82b2425c4431836a57 = L.circleMarker(
+                [21.0857492, 77.666978],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_37a55d3f5b8d447bb5d4fa0be8d10799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99e74bf3e6a3456fb0bd5f32af04ff28 = $(`<div id="html_99e74bf3e6a3456fb0bd5f32af04ff28" style="width: 100.0%; height: 100.0%;">Amravati,India Air Quality 97 in year 2010  21.0857492,77.666978</div>`)[0];
+            popup_37a55d3f5b8d447bb5d4fa0be8d10799.setContent(html_99e74bf3e6a3456fb0bd5f32af04ff28);
+        
+
+        circle_marker_3dfdfda0ee0f4c82b2425c4431836a57.bindPopup(popup_37a55d3f5b8d447bb5d4fa0be8d10799)
+        ;
+
+        
+    
+    
+            var circle_marker_57b23622a71544b9b3cb2c087c645ed0 = L.circleMarker(
+                [31.6343083, 74.8736788],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8060bbfec32a464c9de5faff017d6cae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b301167161444493a7a501ed7acdf219 = $(`<div id="html_b301167161444493a7a501ed7acdf219" style="width: 100.0%; height: 100.0%;">Amritsar,India Air Quality 210 in year 2012  31.6343083,74.8736788</div>`)[0];
+            popup_8060bbfec32a464c9de5faff017d6cae.setContent(html_b301167161444493a7a501ed7acdf219);
+        
+
+        circle_marker_57b23622a71544b9b3cb2c087c645ed0.bindPopup(popup_8060bbfec32a464c9de5faff017d6cae)
+        ;
+
+        
+    
+    
+            var circle_marker_99d526edf2a8431bb3deb09b66d5643d = L.circleMarker(
+                [20.8382426, 85.0973949],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_7091ecac16454a77aee4be0a619472f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ac2ebd08f7440e7884d8952ef8efc4d = $(`<div id="html_2ac2ebd08f7440e7884d8952ef8efc4d" style="width: 100.0%; height: 100.0%;">Angul,India Air Quality 91 in year 2011  20.8382426,85.0973949</div>`)[0];
+            popup_7091ecac16454a77aee4be0a619472f1.setContent(html_2ac2ebd08f7440e7884d8952ef8efc4d);
+        
+
+        circle_marker_99d526edf2a8431bb3deb09b66d5643d.bindPopup(popup_7091ecac16454a77aee4be0a619472f1)
+        ;
+
+        
+    
+    
+            var circle_marker_5a6a0f02f1a24ca388120a9ba94d658b = L.circleMarker(
+                [24.75, 84.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3029f3f664d1494a8ad88f586fcb2360 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a93e7e965ed4a4297f4a22c37cf2b90 = $(`<div id="html_9a93e7e965ed4a4297f4a22c37cf2b90" style="width: 100.0%; height: 100.0%;">Aurangabad,India Air Quality 107 in year 2010  24.75,84.5</div>`)[0];
+            popup_3029f3f664d1494a8ad88f586fcb2360.setContent(html_9a93e7e965ed4a4297f4a22c37cf2b90);
+        
+
+        circle_marker_5a6a0f02f1a24ca388120a9ba94d658b.bindPopup(popup_3029f3f664d1494a8ad88f586fcb2360)
+        ;
+
+        
+    
+    
+            var circle_marker_d535acc4cb174ca7a82e1f3b6c45a1f5 = L.circleMarker(
+                [21.5017098, 86.9216712],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_622ddea69c75435197e21a8cc7ccb306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aa0539218124f4a8efa40f4593e9d86 = $(`<div id="html_9aa0539218124f4a8efa40f4593e9d86" style="width: 100.0%; height: 100.0%;">Balasore,India Air Quality 57 in year 2011  21.5017098,86.9216712</div>`)[0];
+            popup_622ddea69c75435197e21a8cc7ccb306.setContent(html_9aa0539218124f4a8efa40f4593e9d86);
+        
+
+        circle_marker_d535acc4cb174ca7a82e1f3b6c45a1f5.bindPopup(popup_622ddea69c75435197e21a8cc7ccb306)
+        ;
+
+        
+    
+    
+            var circle_marker_a4ae04915fc7411c8982ed44b8052435 = L.circleMarker(
+                [12.9791198, 77.5912997],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5d0a8c3092b74c088d13420abf748886 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4720736662f649c09afc9fb8a6270007 = $(`<div id="html_4720736662f649c09afc9fb8a6270007" style="width: 100.0%; height: 100.0%;">Bangalore,India Air Quality 103 in year 2010  12.9791198,77.5912997</div>`)[0];
+            popup_5d0a8c3092b74c088d13420abf748886.setContent(html_4720736662f649c09afc9fb8a6270007);
+        
+
+        circle_marker_a4ae04915fc7411c8982ed44b8052435.bindPopup(popup_5d0a8c3092b74c088d13420abf748886)
+        ;
+
+        
+    
+    
+            var circle_marker_839f10604a264ba38868534a73da1a35 = L.circleMarker(
+                [19.3359814, 84.96653],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_2ceccee9d0a04d60a5372f43481c3857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_987788a00e2c4278af9a47408e2386a5 = $(`<div id="html_987788a00e2c4278af9a47408e2386a5" style="width: 100.0%; height: 100.0%;">Berhampur,India Air Quality 61 in year 2012  19.3359814,84.96653</div>`)[0];
+            popup_2ceccee9d0a04d60a5372f43481c3857.setContent(html_987788a00e2c4278af9a47408e2386a5);
+        
+
+        circle_marker_839f10604a264ba38868534a73da1a35.bindPopup(popup_2ceccee9d0a04d60a5372f43481c3857)
+        ;
+
+        
+    
+    
+            var circle_marker_2352c8298daa473d99326a27af055b23 = L.circleMarker(
+                [21.2120677, 81.3732849],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_1d4c7bc9275f418797655c37d3b19de6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d4dad9d7f894805ad5702ae14847bc1 = $(`<div id="html_4d4dad9d7f894805ad5702ae14847bc1" style="width: 100.0%; height: 100.0%;">Bhilai,India Air Quality 81 in year 2012  21.2120677,81.3732849</div>`)[0];
+            popup_1d4c7bc9275f418797655c37d3b19de6.setContent(html_4d4dad9d7f894805ad5702ae14847bc1);
+        
+
+        circle_marker_2352c8298daa473d99326a27af055b23.bindPopup(popup_1d4c7bc9275f418797655c37d3b19de6)
+        ;
+
+        
+    
+    
+            var circle_marker_1fbaf5f08511407f9e325d49a007fccb = L.circleMarker(
+                [23.2530923, 77.3962718],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_64005ccd64374931ae56414856c19e4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26377c72d6424dabbd6da64825ad702c = $(`<div id="html_26377c72d6424dabbd6da64825ad702c" style="width: 100.0%; height: 100.0%;">Bhopal,India Air Quality 171 in year 2012  23.2530923,77.3962718</div>`)[0];
+            popup_64005ccd64374931ae56414856c19e4f.setContent(html_26377c72d6424dabbd6da64825ad702c);
+        
+
+        circle_marker_1fbaf5f08511407f9e325d49a007fccb.bindPopup(popup_64005ccd64374931ae56414856c19e4f)
+        ;
+
+        
+    
+    
+            var circle_marker_26a3c28714754d868894a2c25020327d = L.circleMarker(
+                [20.2603328, 85.8393432],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_49c1bf526ae044a49ff497c6ae2185d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea2161ccad674270bc9a9c1cee0d8f6e = $(`<div id="html_ea2161ccad674270bc9a9c1cee0d8f6e" style="width: 100.0%; height: 100.0%;">Bhubaneshwar,India Air Quality 85 in year 2012  20.2603328,85.8393432</div>`)[0];
+            popup_49c1bf526ae044a49ff497c6ae2185d9.setContent(html_ea2161ccad674270bc9a9c1cee0d8f6e);
+        
+
+        circle_marker_26a3c28714754d868894a2c25020327d.bindPopup(popup_49c1bf526ae044a49ff497c6ae2185d9)
+        ;
+
+        
+    
+    
+            var circle_marker_4be99e6490674c7c86c7b966b5997cb0 = L.circleMarker(
+                [26.4800126, 90.5580387],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_c68ac91627054e619fd52686d0e96e2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ff02ad8a0d3420aabb6489522df3a47 = $(`<div id="html_9ff02ad8a0d3420aabb6489522df3a47" style="width: 100.0%; height: 100.0%;">Bongaigaon,India Air Quality 46 in year 2012  26.4800126,90.5580387</div>`)[0];
+            popup_c68ac91627054e619fd52686d0e96e2a.setContent(html_9ff02ad8a0d3420aabb6489522df3a47);
+        
+
+        circle_marker_4be99e6490674c7c86c7b966b5997cb0.bindPopup(popup_c68ac91627054e619fd52686d0e96e2a)
+        ;
+
+        
+    
+    
+            var circle_marker_dd19a3b6983f4f6694aae4034c4447cd = L.circleMarker(
+                [30.7194022, 76.7646552],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_666fe53b26cd4b4b9130e33063734364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d544285b3e640c68658c13f6be30d13 = $(`<div id="html_9d544285b3e640c68658c13f6be30d13" style="width: 100.0%; height: 100.0%;">Chandigarh,India Air Quality 105 in year 2012  30.7194022,76.7646552</div>`)[0];
+            popup_666fe53b26cd4b4b9130e33063734364.setContent(html_9d544285b3e640c68658c13f6be30d13);
+        
+
+        circle_marker_dd19a3b6983f4f6694aae4034c4447cd.bindPopup(popup_666fe53b26cd4b4b9130e33063734364)
+        ;
+
+        
+    
+    
+            var circle_marker_96ebb1c9501d423b8fc9384144702f26 = L.circleMarker(
+                [20.0, 80.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_00c8eeff9c484ff8a842280f5ebb807b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bddfa9259ee047d787d2219b29d45289 = $(`<div id="html_bddfa9259ee047d787d2219b29d45289" style="width: 100.0%; height: 100.0%;">Chandrapur,India Air Quality 174 in year 2010  20.0,80.0</div>`)[0];
+            popup_00c8eeff9c484ff8a842280f5ebb807b.setContent(html_bddfa9259ee047d787d2219b29d45289);
+        
+
+        circle_marker_96ebb1c9501d423b8fc9384144702f26.bindPopup(popup_00c8eeff9c484ff8a842280f5ebb807b)
+        ;
+
+        
+    
+    
+            var circle_marker_fb716c63f833455eacd1626c44bd0637 = L.circleMarker(
+                [13.0801721, 80.2838331],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_32f09015b4054fea8991b18eb9eaab7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c16baa59e3904194a4f1810d1f4735cd = $(`<div id="html_c16baa59e3904194a4f1810d1f4735cd" style="width: 100.0%; height: 100.0%;">Chennai,India Air Quality 55 in year 2010  13.0801721,80.2838331</div>`)[0];
+            popup_32f09015b4054fea8991b18eb9eaab7f.setContent(html_c16baa59e3904194a4f1810d1f4735cd);
+        
+
+        circle_marker_fb716c63f833455eacd1626c44bd0637.bindPopup(popup_32f09015b4054fea8991b18eb9eaab7f)
+        ;
+
+        
+    
+    
+            var circle_marker_182b12bfd8c54e98b6d5014ac47b40c5 = L.circleMarker(
+                [11.0018115, 76.9628425],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_59af0b408dbb4e1bb0003450b4f28a82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_361cc9e18c70441e9c2be89dcbedef9e = $(`<div id="html_361cc9e18c70441e9c2be89dcbedef9e" style="width: 100.0%; height: 100.0%;">Coimbatore,India Air Quality 66 in year 2011  11.0018115,76.9628425</div>`)[0];
+            popup_59af0b408dbb4e1bb0003450b4f28a82.setContent(html_361cc9e18c70441e9c2be89dcbedef9e);
+        
+
+        circle_marker_182b12bfd8c54e98b6d5014ac47b40c5.bindPopup(popup_59af0b408dbb4e1bb0003450b4f28a82)
+        ;
+
+        
+    
+    
+            var circle_marker_ffe53329dce748648dbf1bf236fd4c63 = L.circleMarker(
+                [20.4686, 85.8792],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8b49e102a7c5496d8362d6092654f894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752196243b064a99a6e488187dc91c74 = $(`<div id="html_752196243b064a99a6e488187dc91c74" style="width: 100.0%; height: 100.0%;">Cuttack,India Air Quality 68 in year 2012  20.4686,85.8792</div>`)[0];
+            popup_8b49e102a7c5496d8362d6092654f894.setContent(html_752196243b064a99a6e488187dc91c74);
+        
+
+        circle_marker_ffe53329dce748648dbf1bf236fd4c63.bindPopup(popup_8b49e102a7c5496d8362d6092654f894)
+        ;
+
+        
+    
+    
+            var circle_marker_12dff07e49404ce9aab026a75eebfbbe = L.circleMarker(
+                [25.1856343, 92.0215717],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_f50ec0086efb426c871cdd660ceb4ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a601a9795f6d42368c12ac91ef00872d = $(`<div id="html_a601a9795f6d42368c12ac91ef00872d" style="width: 100.0%; height: 100.0%;">Dawki ,India Air Quality 52 in year 2011  25.1856343,92.0215717</div>`)[0];
+            popup_f50ec0086efb426c871cdd660ceb4ac6.setContent(html_a601a9795f6d42368c12ac91ef00872d);
+        
+
+        circle_marker_12dff07e49404ce9aab026a75eebfbbe.bindPopup(popup_f50ec0086efb426c871cdd660ceb4ac6)
+        ;
+
+        
+    
+    
+            var circle_marker_04a6e709f33042c3a4b58c9a9206bd5e = L.circleMarker(
+                [30.3255646, 78.0436813],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_60d92ef8aed3478f80060c4d6375aaa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4302024a8b134f53afb8228cfbe1b7fd = $(`<div id="html_4302024a8b134f53afb8228cfbe1b7fd" style="width: 100.0%; height: 100.0%;">Dehradun,India Air Quality 175 in year 2011  30.3255646,78.0436813</div>`)[0];
+            popup_60d92ef8aed3478f80060c4d6375aaa9.setContent(html_4302024a8b134f53afb8228cfbe1b7fd);
+        
+
+        circle_marker_04a6e709f33042c3a4b58c9a9206bd5e.bindPopup(popup_60d92ef8aed3478f80060c4d6375aaa9)
+        ;
+
+        
+    
+    
+            var circle_marker_0ce0509cec014ffaaa9039272c5f861d = L.circleMarker(
+                [28.6517178, 77.2219388],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_62c71a21f2784e589f295ac098b599a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c8d5eeb68cf4f91ac59739fa86c560b = $(`<div id="html_6c8d5eeb68cf4f91ac59739fa86c560b" style="width: 100.0%; height: 100.0%;">Delhi,India Air Quality 286 in year 2010  28.6517178,77.2219388</div>`)[0];
+            popup_62c71a21f2784e589f295ac098b599a4.setContent(html_6c8d5eeb68cf4f91ac59739fa86c560b);
+        
+
+        circle_marker_0ce0509cec014ffaaa9039272c5f861d.bindPopup(popup_62c71a21f2784e589f295ac098b599a4)
+        ;
+
+        
+    
+    
+            var circle_marker_1908dc82d5a646b89f1ef714ee8b52ec = L.circleMarker(
+                [32.0317917, 75.0284641],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_7a55bbf66d4143a7969cdb1cbab1060c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba22314ca7d478ba8b49d7d5a339d52 = $(`<div id="html_5ba22314ca7d478ba8b49d7d5a339d52" style="width: 100.0%; height: 100.0%;">Dera Baba Nanak,India Air Quality 68 in year 2012  32.0317917,75.0284641</div>`)[0];
+            popup_7a55bbf66d4143a7969cdb1cbab1060c.setContent(html_5ba22314ca7d478ba8b49d7d5a339d52);
+        
+
+        circle_marker_1908dc82d5a646b89f1ef714ee8b52ec.bindPopup(popup_7a55bbf66d4143a7969cdb1cbab1060c)
+        ;
+
+        
+    
+    
+            var circle_marker_ed64929e831c4198b2342138e8b94f49 = L.circleMarker(
+                [23.0, 76.166667],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_82294913378e43399fc276cf366de43e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a2ed21c693a4d92923b2a3a160d6707 = $(`<div id="html_4a2ed21c693a4d92923b2a3a160d6707" style="width: 100.0%; height: 100.0%;">Dewas,India Air Quality 97 in year 2012  23.0,76.166667</div>`)[0];
+            popup_82294913378e43399fc276cf366de43e.setContent(html_4a2ed21c693a4d92923b2a3a160d6707);
+        
+
+        circle_marker_ed64929e831c4198b2342138e8b94f49.bindPopup(popup_82294913378e43399fc276cf366de43e)
+        ;
+
+        
+    
+    
+            var circle_marker_f85675dc2dfb402296508bc32c196848 = L.circleMarker(
+                [27.4844597, 94.9019447],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_b950942b9caf409999bdd3fd98aa70ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb9093877bb342b0bf3906fa9d4ef100 = $(`<div id="html_fb9093877bb342b0bf3906fa9d4ef100" style="width: 100.0%; height: 100.0%;">Dibrugarh,India Air Quality 56 in year 2012  27.4844597,94.9019447</div>`)[0];
+            popup_b950942b9caf409999bdd3fd98aa70ed.setContent(html_fb9093877bb342b0bf3906fa9d4ef100);
+        
+
+        circle_marker_f85675dc2dfb402296508bc32c196848.bindPopup(popup_b950942b9caf409999bdd3fd98aa70ed)
+        ;
+
+        
+    
+    
+            var circle_marker_b36ac872d8a746f4a7eb6d0ebc3500d9 = L.circleMarker(
+                [25.9135914, 93.7283707],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_b9d0e0f758ba4bc7bbb3bb77c8f56515 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afc8685f327c4432af0cf4d1a0a53fb1 = $(`<div id="html_afc8685f327c4432af0cf4d1a0a53fb1" style="width: 100.0%; height: 100.0%;">Dimapur,India Air Quality 92 in year 2011  25.9135914,93.7283707</div>`)[0];
+            popup_b9d0e0f758ba4bc7bbb3bb77c8f56515.setContent(html_afc8685f327c4432af0cf4d1a0a53fb1);
+        
+
+        circle_marker_b36ac872d8a746f4a7eb6d0ebc3500d9.bindPopup(popup_b9d0e0f758ba4bc7bbb3bb77c8f56515)
+        ;
+
+        
+    
+    
+            var circle_marker_46cebfb32b0c4b6aba21cf97fb20f6ad = L.circleMarker(
+                [31.6583488, 76.8256984],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_429179435f75472d8c53eafed8c2d8f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3ff0082cc6344c8bca41d402dc509e7 = $(`<div id="html_b3ff0082cc6344c8bca41d402dc509e7" style="width: 100.0%; height: 100.0%;">Durgapur,India Air Quality 110 in year 2009  31.6583488,76.8256984</div>`)[0];
+            popup_429179435f75472d8c53eafed8c2d8f1.setContent(html_b3ff0082cc6344c8bca41d402dc509e7);
+        
+
+        circle_marker_46cebfb32b0c4b6aba21cf97fb20f6ad.bindPopup(popup_429179435f75472d8c53eafed8c2d8f1)
+        ;
+
+        
+    
+    
+            var circle_marker_88a48c744b8645d4b9bd49ad53445730 = L.circleMarker(
+                [27.1527986, 78.3991439],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_52338fedbc09472d85d0e2c8e42555ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa99e6e5138340478b813cc32f5db807 = $(`<div id="html_fa99e6e5138340478b813cc32f5db807" style="width: 100.0%; height: 100.0%;">Firozabad,India Air Quality 219 in year 2010  27.1527986,78.3991439</div>`)[0];
+            popup_52338fedbc09472d85d0e2c8e42555ac.setContent(html_fa99e6e5138340478b813cc32f5db807);
+        
+
+        circle_marker_88a48c744b8645d4b9bd49ad53445730.bindPopup(popup_52338fedbc09472d85d0e2c8e42555ac)
+        ;
+
+        
+    
+    
+            var circle_marker_3c2a570f7a7047f9922fa50fec844c24 = L.circleMarker(
+                [30.2701316, 76.7322053],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9762e168cb9041d5bae5e96e4cd3e74c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_194db3ecd17040db924c25a993d72a83 = $(`<div id="html_194db3ecd17040db924c25a993d72a83" style="width: 100.0%; height: 100.0%;">Gobindgarh,India Air Quality 159 in year 2012  30.2701316,76.7322053</div>`)[0];
+            popup_9762e168cb9041d5bae5e96e4cd3e74c.setContent(html_194db3ecd17040db924c25a993d72a83);
+        
+
+        circle_marker_3c2a570f7a7047f9922fa50fec844c24.bindPopup(popup_9762e168cb9041d5bae5e96e4cd3e74c)
+        ;
+
+        
+    
+    
+            var circle_marker_d2de774f923b40da85a8ecdf23c8cd74 = L.circleMarker(
+                [26.5105861, 93.9677246],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_e2dd845fb25744a4a9d206675c2c3c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d32e1acfe8f402a936e88e66adc2d7c = $(`<div id="html_2d32e1acfe8f402a936e88e66adc2d7c" style="width: 100.0%; height: 100.0%;">Golaghat,India Air Quality 55 in year 2012  26.5105861,93.9677246</div>`)[0];
+            popup_e2dd845fb25744a4a9d206675c2c3c4f.setContent(html_2d32e1acfe8f402a936e88e66adc2d7c);
+        
+
+        circle_marker_d2de774f923b40da85a8ecdf23c8cd74.bindPopup(popup_e2dd845fb25744a4a9d206675c2c3c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_1ca19c437e7a457ebfbb0252ef7deea2 = L.circleMarker(
+                [17.3310003, 76.8334228],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_aa6c2d3d290a4b658872992a9ad076a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_766159fdff7141b3ac9302468a280424 = $(`<div id="html_766159fdff7141b3ac9302468a280424" style="width: 100.0%; height: 100.0%;">Gulbarga,India Air Quality 64 in year 2010  17.3310003,76.8334228</div>`)[0];
+            popup_aa6c2d3d290a4b658872992a9ad076a8.setContent(html_766159fdff7141b3ac9302468a280424);
+        
+
+        circle_marker_1ca19c437e7a457ebfbb0252ef7deea2.bindPopup(popup_aa6c2d3d290a4b658872992a9ad076a8)
+        ;
+
+        
+    
+    
+            var circle_marker_632a9b051ba540a68a92dbd93c7fd5cf = L.circleMarker(
+                [16.2915189, 80.4541588],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_2be5056bb84542d786601910f065478a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0884f98cadf434ea422a37001bcb89b = $(`<div id="html_b0884f98cadf434ea422a37001bcb89b" style="width: 100.0%; height: 100.0%;">Guntur ,India Air Quality 75 in year 2012  16.2915189,80.4541588</div>`)[0];
+            popup_2be5056bb84542d786601910f065478a.setContent(html_b0884f98cadf434ea422a37001bcb89b);
+        
+
+        circle_marker_632a9b051ba540a68a92dbd93c7fd5cf.bindPopup(popup_2be5056bb84542d786601910f065478a)
+        ;
+
+        
+    
+    
+            var circle_marker_6d12564ffb5944558171510bce258f56 = L.circleMarker(
+                [26.1805978, 91.753943],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8fe502429d39411b9216b6a6227d8b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc5fed093587463ea8b4479808c3bfa6 = $(`<div id="html_dc5fed093587463ea8b4479808c3bfa6" style="width: 100.0%; height: 100.0%;">Guwahati,India Air Quality 92 in year 2012  26.1805978,91.753943</div>`)[0];
+            popup_8fe502429d39411b9216b6a6227d8b26.setContent(html_dc5fed093587463ea8b4479808c3bfa6);
+        
+
+        circle_marker_6d12564ffb5944558171510bce258f56.bindPopup(popup_8fe502429d39411b9216b6a6227d8b26)
+        ;
+
+        
+    
+    
+            var circle_marker_e79d427e4dcc4d659b78f83fda62d2e1 = L.circleMarker(
+                [26.2037247, 78.1573628],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_be51707ecfee41e59a0b85f741e1196f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_533892226c7d44ca94aa1c1c2bdc67de = $(`<div id="html_533892226c7d44ca94aa1c1c2bdc67de" style="width: 100.0%; height: 100.0%;">Gwalior,India Air Quality 329 in year 2012  26.2037247,78.1573628</div>`)[0];
+            popup_be51707ecfee41e59a0b85f741e1196f.setContent(html_533892226c7d44ca94aa1c1c2bdc67de);
+        
+
+        circle_marker_e79d427e4dcc4d659b78f83fda62d2e1.bindPopup(popup_be51707ecfee41e59a0b85f741e1196f)
+        ;
+
+        
+    
+    
+            var circle_marker_32e178c52aea4428ae7afc125c29d5ec = L.circleMarker(
+                [13.0070817, 76.0992703],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5c67c2a7bbef4c6ca355fa42e76152a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e94abe13e35e4f8a9dc22a6a9004326d = $(`<div id="html_e94abe13e35e4f8a9dc22a6a9004326d" style="width: 100.0%; height: 100.0%;">Hassan,India Air Quality 44 in year 2010  13.0070817,76.0992703</div>`)[0];
+            popup_5c67c2a7bbef4c6ca355fa42e76152a2.setContent(html_e94abe13e35e4f8a9dc22a6a9004326d);
+        
+
+        circle_marker_32e178c52aea4428ae7afc125c29d5ec.bindPopup(popup_5c67c2a7bbef4c6ca355fa42e76152a2)
+        ;
+
+        
+    
+    
+            var circle_marker_ecca27b4f27540e08a11ce18b17a3c0c = L.circleMarker(
+                [29.168807, 75.7461103],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0f3b514d8fe840f8869ce6b76592196f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2422d6e80b6146b1888e24be73f11366 = $(`<div id="html_2422d6e80b6146b1888e24be73f11366" style="width: 100.0%; height: 100.0%;">Hisar,India Air Quality 72 in year 2011  29.168807,75.7461103</div>`)[0];
+            popup_0f3b514d8fe840f8869ce6b76592196f.setContent(html_2422d6e80b6146b1888e24be73f11366);
+        
+
+        circle_marker_ecca27b4f27540e08a11ce18b17a3c0c.bindPopup(popup_0f3b514d8fe840f8869ce6b76592196f)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa9726f7c6442c289e45c52004e1ade = L.circleMarker(
+                [22.4914615, 88.0292896609555],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_add901947ec148efbc5fb3e6f40a5cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f44a89d0a964274b15a0be364b2519c = $(`<div id="html_2f44a89d0a964274b15a0be364b2519c" style="width: 100.0%; height: 100.0%;">Howrah,India Air Quality 108 in year 2009  22.4914615,88.0292896609555</div>`)[0];
+            popup_add901947ec148efbc5fb3e6f40a5cb0.setContent(html_2f44a89d0a964274b15a0be364b2519c);
+        
+
+        circle_marker_4fa9726f7c6442c289e45c52004e1ade.bindPopup(popup_add901947ec148efbc5fb3e6f40a5cb0)
+        ;
+
+        
+    
+    
+            var circle_marker_7ec548ce1ea9498db8e48c6359ee5190 = L.circleMarker(
+                [17.3616079, 78.4746286],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9b14bff76618453089394950f16f4d27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e8fcbcd36a470e9c8acc9bb5b7bf27 = $(`<div id="html_30e8fcbcd36a470e9c8acc9bb5b7bf27" style="width: 100.0%; height: 100.0%;">Hyderabad,India Air Quality 87 in year 2012  17.3616079,78.4746286</div>`)[0];
+            popup_9b14bff76618453089394950f16f4d27.setContent(html_30e8fcbcd36a470e9c8acc9bb5b7bf27);
+        
+
+        circle_marker_7ec548ce1ea9498db8e48c6359ee5190.bindPopup(popup_9b14bff76618453089394950f16f4d27)
+        ;
+
+        
+    
+    
+            var circle_marker_a11db12b21e2499388100b40a4bcc120 = L.circleMarker(
+                [22.7203851, 75.8682103],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_4d755009e3144bc884622a7998c3396f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50aedf9ea34041c99896eb477f64d2e9 = $(`<div id="html_50aedf9ea34041c99896eb477f64d2e9" style="width: 100.0%; height: 100.0%;">Indore,India Air Quality 122 in year 2012  22.7203851,75.8682103</div>`)[0];
+            popup_4d755009e3144bc884622a7998c3396f.setContent(html_50aedf9ea34041c99896eb477f64d2e9);
+        
+
+        circle_marker_a11db12b21e2499388100b40a4bcc120.bindPopup(popup_4d755009e3144bc884622a7998c3396f)
+        ;
+
+        
+    
+    
+            var circle_marker_e32be823886944079cc19e9d7d4412db = L.circleMarker(
+                [26.916194, 75.820349],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3b27f536b85947deae5c634f6c1c7ab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f8f3f53a1754ecab13c55e6efa3665a = $(`<div id="html_2f8f3f53a1754ecab13c55e6efa3665a" style="width: 100.0%; height: 100.0%;">Jaipur,India Air Quality 155 in year 2012  26.916194,75.820349</div>`)[0];
+            popup_3b27f536b85947deae5c634f6c1c7ab8.setContent(html_2f8f3f53a1754ecab13c55e6efa3665a);
+        
+
+        circle_marker_e32be823886944079cc19e9d7d4412db.bindPopup(popup_3b27f536b85947deae5c634f6c1c7ab8)
+        ;
+
+        
+    
+    
+            var circle_marker_805465e15e464ef2b9ae957c285b7be3 = L.circleMarker(
+                [31.3323762, 75.576889],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_284ce2ef733e45378d63b97d22b38521 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c806b8120ab40f2912d29cd5aa988ab = $(`<div id="html_7c806b8120ab40f2912d29cd5aa988ab" style="width: 100.0%; height: 100.0%;">Jalandhar,India Air Quality 128 in year 2012  31.3323762,75.576889</div>`)[0];
+            popup_284ce2ef733e45378d63b97d22b38521.setContent(html_7c806b8120ab40f2912d29cd5aa988ab);
+        
+
+        circle_marker_805465e15e464ef2b9ae957c285b7be3.bindPopup(popup_284ce2ef733e45378d63b97d22b38521)
+        ;
+
+        
+    
+    
+            var circle_marker_603e0f43f74e48318cef488406403496 = L.circleMarker(
+                [32.7185614, 74.8580917],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9c794dd9054d4cb5ac55d6b8eacc93a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97cb07e72267483db856fcc738aa7be2 = $(`<div id="html_97cb07e72267483db856fcc738aa7be2" style="width: 100.0%; height: 100.0%;">Jammu,India Air Quality 127 in year 2010  32.7185614,74.8580917</div>`)[0];
+            popup_9c794dd9054d4cb5ac55d6b8eacc93a2.setContent(html_97cb07e72267483db856fcc738aa7be2);
+        
+
+        circle_marker_603e0f43f74e48318cef488406403496.bindPopup(popup_9c794dd9054d4cb5ac55d6b8eacc93a2)
+        ;
+
+        
+    
+    
+            var circle_marker_65f6787ff11f4251a2702320a279afe9 = L.circleMarker(
+                [22.25, 70.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_24582897551a4406932cc4ae038ff1a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce53aa5f97aa4532ba7953b7ccc99470 = $(`<div id="html_ce53aa5f97aa4532ba7953b7ccc99470" style="width: 100.0%; height: 100.0%;">Jamnagar,India Air Quality 104 in year 2010  22.25,70.0</div>`)[0];
+            popup_24582897551a4406932cc4ae038ff1a0.setContent(html_ce53aa5f97aa4532ba7953b7ccc99470);
+        
+
+        circle_marker_65f6787ff11f4251a2702320a279afe9.bindPopup(popup_24582897551a4406932cc4ae038ff1a0)
+        ;
+
+        
+    
+    
+            var circle_marker_e568ceb69a404708887fa91383ecd357 = L.circleMarker(
+                [25.4502464, 78.5800085],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_d4e7e1fae1804a3980b20b0b351a0001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_849922f5c3c94132b8c91b59b7301bbd = $(`<div id="html_849922f5c3c94132b8c91b59b7301bbd" style="width: 100.0%; height: 100.0%;">Jhansi,India Air Quality 113 in year 2012  25.4502464,78.5800085</div>`)[0];
+            popup_d4e7e1fae1804a3980b20b0b351a0001.setContent(html_849922f5c3c94132b8c91b59b7301bbd);
+        
+
+        circle_marker_e568ceb69a404708887fa91383ecd357.bindPopup(popup_d4e7e1fae1804a3980b20b0b351a0001)
+        ;
+
+        
+    
+    
+            var circle_marker_cd84cbba19124c4eb5f022c10010a519 = L.circleMarker(
+                [26.2967719, 73.0351433],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_109e4524657a49b896fda8649e037408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_314ed0d62cb24059b9e6adcb6f3969c9 = $(`<div id="html_314ed0d62cb24059b9e6adcb6f3969c9" style="width: 100.0%; height: 100.0%;">Jodhpur,India Air Quality 196 in year 2012  26.2967719,73.0351433</div>`)[0];
+            popup_109e4524657a49b896fda8649e037408.setContent(html_314ed0d62cb24059b9e6adcb6f3969c9);
+        
+
+        circle_marker_cd84cbba19124c4eb5f022c10010a519.bindPopup(popup_109e4524657a49b896fda8649e037408)
+        ;
+
+        
+    
+    
+            var circle_marker_3cb428b269724da2819da3d5ec895423 = L.circleMarker(
+                [16.9437385, 82.2350607],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3bbf591cecb041e5b2c79b807db87ead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afdee071d3c94206a28195d333222fdd = $(`<div id="html_afdee071d3c94206a28195d333222fdd" style="width: 100.0%; height: 100.0%;">Kakinada ,India Air Quality 58 in year 2012  16.9437385,82.2350607</div>`)[0];
+            popup_3bbf591cecb041e5b2c79b807db87ead.setContent(html_afdee071d3c94206a28195d333222fdd);
+        
+
+        circle_marker_3cb428b269724da2819da3d5ec895423.bindPopup(popup_3bbf591cecb041e5b2c79b807db87ead)
+        ;
+
+        
+    
+    
+            var circle_marker_41dd164f8f9345f89ec2efec13c00f42 = L.circleMarker(
+                [26.4609135, 80.3217588],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_2c0aab2117e54b5a838647d3ba1f51a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95b5907bee9d4d2dacfd8c75015c66ba = $(`<div id="html_95b5907bee9d4d2dacfd8c75015c66ba" style="width: 100.0%; height: 100.0%;">Kanpur,India Air Quality 212 in year 2010  26.4609135,80.3217588</div>`)[0];
+            popup_2c0aab2117e54b5a838647d3ba1f51a0.setContent(html_95b5907bee9d4d2dacfd8c75015c66ba);
+        
+
+        circle_marker_41dd164f8f9345f89ec2efec13c00f42.bindPopup(popup_2c0aab2117e54b5a838647d3ba1f51a0)
+        ;
+
+        
+    
+    
+            var circle_marker_a0c001cbfd1b4695ad0787afabeb4142 = L.circleMarker(
+                [17.2465351, 80.1500326],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8184c1574ed4425ba27d1c4712565973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a51b4ed271b406189cb9dc444fcfe48 = $(`<div id="html_2a51b4ed271b406189cb9dc444fcfe48" style="width: 100.0%; height: 100.0%;">Khammam ,India Air Quality 64 in year 2012  17.2465351,80.1500326</div>`)[0];
+            popup_8184c1574ed4425ba27d1c4712565973.setContent(html_2a51b4ed271b406189cb9dc444fcfe48);
+        
+
+        circle_marker_a0c001cbfd1b4695ad0787afabeb4142.bindPopup(popup_8184c1574ed4425ba27d1c4712565973)
+        ;
+
+        
+    
+    
+            var circle_marker_48871cfcf962473ba9789fb5f9f5f191 = L.circleMarker(
+                [25.5149659, 80.0468375],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_b9c7216cd42b48f38026a4269b60e257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e41b8e2953417291d2a692241d59bb = $(`<div id="html_59e41b8e2953417291d2a692241d59bb" style="width: 100.0%; height: 100.0%;">Khanna,India Air Quality 200 in year 2012  25.5149659,80.0468375</div>`)[0];
+            popup_b9c7216cd42b48f38026a4269b60e257.setContent(html_59e41b8e2953417291d2a692241d59bb);
+        
+
+        circle_marker_48871cfcf962473ba9789fb5f9f5f191.bindPopup(popup_b9c7216cd42b48f38026a4269b60e257)
+        ;
+
+        
+    
+    
+            var circle_marker_1b16b92046d145a89e1e4995cb1b8a13 = L.circleMarker(
+                [28.2532652, 77.853916],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_77dcece0d97a41599d923e72d52fa0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_455efc16ef8d4234aec471fa04f31c61 = $(`<div id="html_455efc16ef8d4234aec471fa04f31c61" style="width: 100.0%; height: 100.0%;">Khurja,India Air Quality 154 in year 2011  28.2532652,77.853916</div>`)[0];
+            popup_77dcece0d97a41599d923e72d52fa0e7.setContent(html_455efc16ef8d4234aec471fa04f31c61);
+        
+
+        circle_marker_1b16b92046d145a89e1e4995cb1b8a13.bindPopup(popup_77dcece0d97a41599d923e72d52fa0e7)
+        ;
+
+        
+    
+    
+            var circle_marker_6a95d1e0d1ac43ddb49a861840655f61 = L.circleMarker(
+                [9.9633864, 76.2536614],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_b644eab5b1364381b0d4c28f5c680bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff345d66cefd43538482210626b0f4bd = $(`<div id="html_ff345d66cefd43538482210626b0f4bd" style="width: 100.0%; height: 100.0%;">Kochi,India Air Quality 64 in year 2012  9.9633864,76.2536614</div>`)[0];
+            popup_b644eab5b1364381b0d4c28f5c680bc0.setContent(html_ff345d66cefd43538482210626b0f4bd);
+        
+
+        circle_marker_6a95d1e0d1ac43ddb49a861840655f61.bindPopup(popup_b644eab5b1364381b0d4c28f5c680bc0)
+        ;
+
+        
+    
+    
+            var circle_marker_bd15c373529f490faf485f3d9416bd47 = L.circleMarker(
+                [25.6618755, 94.1019156],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_adefb5d5c7964b789289dc4b3b215f66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15d8922ce9d14f65b9c5ab7c58fd9d84 = $(`<div id="html_15d8922ce9d14f65b9c5ab7c58fd9d84" style="width: 100.0%; height: 100.0%;">Kohima,India Air Quality 64 in year 2011  25.6618755,94.1019156</div>`)[0];
+            popup_adefb5d5c7964b789289dc4b3b215f66.setContent(html_15d8922ce9d14f65b9c5ab7c58fd9d84);
+        
+
+        circle_marker_bd15c373529f490faf485f3d9416bd47.bindPopup(popup_adefb5d5c7964b789289dc4b3b215f66)
+        ;
+
+        
+    
+    
+            var circle_marker_a4179a8706c249468fc0ab9fa475455c = L.circleMarker(
+                [16.4605733, 74.0938075721299],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_16833399ea734d27b58dfc6de9c11c82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dfcf79a81fd421b98f65fc035c55f57 = $(`<div id="html_4dfcf79a81fd421b98f65fc035c55f57" style="width: 100.0%; height: 100.0%;">Kolhapur,India Air Quality 81 in year 2010  16.4605733,74.0938075721299</div>`)[0];
+            popup_16833399ea734d27b58dfc6de9c11c82.setContent(html_4dfcf79a81fd421b98f65fc035c55f57);
+        
+
+        circle_marker_a4179a8706c249468fc0ab9fa475455c.bindPopup(popup_16833399ea734d27b58dfc6de9c11c82)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5708628ba8416d84e8612148573a77 = L.circleMarker(
+                [22.5677459, 88.3476023],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_e74bf58c501a465d804ac20828f1f610 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_319a9fc28f134f63a611d052537dd1a4 = $(`<div id="html_319a9fc28f134f63a611d052537dd1a4" style="width: 100.0%; height: 100.0%;">Kolkata,India Air Quality 97 in year 2009-2010  22.5677459,88.3476023</div>`)[0];
+            popup_e74bf58c501a465d804ac20828f1f610.setContent(html_319a9fc28f134f63a611d052537dd1a4);
+        
+
+        circle_marker_3f5708628ba8416d84e8612148573a77.bindPopup(popup_e74bf58c501a465d804ac20828f1f610)
+        ;
+
+        
+    
+    
+            var circle_marker_ec07b07ccfde4a7f8cafb658dac2ec7f = L.circleMarker(
+                [8.8870537, 76.5907058],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3d611b8bf80d472b885d0e7934bbcfee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ed43bdabf85404f993fc8209bf5d767 = $(`<div id="html_5ed43bdabf85404f993fc8209bf5d767" style="width: 100.0%; height: 100.0%;">Kollam,India Air Quality 39 in year 2012  8.8870537,76.5907058</div>`)[0];
+            popup_3d611b8bf80d472b885d0e7934bbcfee.setContent(html_5ed43bdabf85404f993fc8209bf5d767);
+        
+
+        circle_marker_ec07b07ccfde4a7f8cafb658dac2ec7f.bindPopup(popup_3d611b8bf80d472b885d0e7934bbcfee)
+        ;
+
+        
+    
+    
+            var circle_marker_c1d7f6ceba8c43af9a55288501c7459a = L.circleMarker(
+                [22.51976955, 82.6295146241682],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_72569cce8ef7497eaf77725d048e7248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd3df57e24c04d259f7abdfa6cc10eb3 = $(`<div id="html_bd3df57e24c04d259f7abdfa6cc10eb3" style="width: 100.0%; height: 100.0%;">Korba,India Air Quality 114 in year 2012  22.51976955,82.6295146241682</div>`)[0];
+            popup_72569cce8ef7497eaf77725d048e7248.setContent(html_bd3df57e24c04d259f7abdfa6cc10eb3);
+        
+
+        circle_marker_c1d7f6ceba8c43af9a55288501c7459a.bindPopup(popup_72569cce8ef7497eaf77725d048e7248)
+        ;
+
+        
+    
+    
+            var circle_marker_70029e2a1c0942d896d1bdf3dc64027e = L.circleMarker(
+                [25.0, 76.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3829087cf5d44a0bb009cd7d9a9d5fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa686cc569604f3b9c92092179f3bbd8 = $(`<div id="html_fa686cc569604f3b9c92092179f3bbd8" style="width: 100.0%; height: 100.0%;">Kota,India Air Quality 146 in year 2012  25.0,76.5</div>`)[0];
+            popup_3829087cf5d44a0bb009cd7d9a9d5fc5.setContent(html_fa686cc569604f3b9c92092179f3bbd8);
+        
+
+        circle_marker_70029e2a1c0942d896d1bdf3dc64027e.bindPopup(popup_3829087cf5d44a0bb009cd7d9a9d5fc5)
+        ;
+
+        
+    
+    
+            var circle_marker_4b4cf58757c040e190c83322932b7a6a = L.circleMarker(
+                [9.5916046, 76.5221304],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_d6348e6d09c64ae0b1641f3049fce01f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf32d5cd46ab45d69f0d4970c7294652 = $(`<div id="html_bf32d5cd46ab45d69f0d4970c7294652" style="width: 100.0%; height: 100.0%;">Kottayam,India Air Quality 55 in year 2012  9.5916046,76.5221304</div>`)[0];
+            popup_d6348e6d09c64ae0b1641f3049fce01f.setContent(html_bf32d5cd46ab45d69f0d4970c7294652);
+        
+
+        circle_marker_4b4cf58757c040e190c83322932b7a6a.bindPopup(popup_d6348e6d09c64ae0b1641f3049fce01f)
+        ;
+
+        
+    
+    
+            var circle_marker_9c2d1fa6eab346edbc2835c49525e4a9 = L.circleMarker(
+                [11.2446144, 75.7759372],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0c71275a960749ab92828bb481c11e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e889884bc37e4a63a9300f1cbe7cfb50 = $(`<div id="html_e889884bc37e4a63a9300f1cbe7cfb50" style="width: 100.0%; height: 100.0%;">Kozhikode,India Air Quality 57 in year 2012  11.2446144,75.7759372</div>`)[0];
+            popup_0c71275a960749ab92828bb481c11e60.setContent(html_e889884bc37e4a63a9300f1cbe7cfb50);
+        
+
+        circle_marker_9c2d1fa6eab346edbc2835c49525e4a9.bindPopup(popup_0c71275a960749ab92828bb481c11e60)
+        ;
+
+        
+    
+    
+            var circle_marker_b351eb61adbf4301ae1530aa9e3a1845 = L.circleMarker(
+                [15.8309251, 78.0425373],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9de530c5185e4f64a6475aeb468235ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16d1dc58c0f24883835a61827dc7d707 = $(`<div id="html_16d1dc58c0f24883835a61827dc7d707" style="width: 100.0%; height: 100.0%;">Kurnool ,India Air Quality 74 in year 2012  15.8309251,78.0425373</div>`)[0];
+            popup_9de530c5185e4f64a6475aeb468235ed.setContent(html_16d1dc58c0f24883835a61827dc7d707);
+        
+
+        circle_marker_b351eb61adbf4301ae1530aa9e3a1845.bindPopup(popup_9de530c5185e4f64a6475aeb468235ed)
+        ;
+
+        
+    
+    
+            var circle_marker_16f0cf8d6b754e2da844cd2970643420 = L.circleMarker(
+                [26.8381, 80.9346001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_646fe643a9564ff694fa34f45b3987b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d07876850da4b0f8117fc06e9c4ef4f = $(`<div id="html_9d07876850da4b0f8117fc06e9c4ef4f" style="width: 100.0%; height: 100.0%;">Lucknow,India Air Quality 219 in year 2010  26.8381,80.9346001</div>`)[0];
+            popup_646fe643a9564ff694fa34f45b3987b3.setContent(html_9d07876850da4b0f8117fc06e9c4ef4f);
+        
+
+        circle_marker_16f0cf8d6b754e2da844cd2970643420.bindPopup(popup_646fe643a9564ff694fa34f45b3987b3)
+        ;
+
+        
+    
+    
+            var circle_marker_9620e9b8af29434fbbba8fb6ba7946c8 = L.circleMarker(
+                [30.9090157, 75.851601],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_30409e4f705e49ca886b01aad24b16aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a3e02a1fb64acb84bde8c48ed76d75 = $(`<div id="html_94a3e02a1fb64acb84bde8c48ed76d75" style="width: 100.0%; height: 100.0%;">Ludhiana,India Air Quality 207 in year 2012  30.9090157,75.851601</div>`)[0];
+            popup_30409e4f705e49ca886b01aad24b16aa.setContent(html_94a3e02a1fb64acb84bde8c48ed76d75);
+        
+
+        circle_marker_9620e9b8af29434fbbba8fb6ba7946c8.bindPopup(popup_30409e4f705e49ca886b01aad24b16aa)
+        ;
+
+        
+    
+    
+            var circle_marker_d3d57b7f72e74784a1aecd0d8a086c4f = L.circleMarker(
+                [9.9261153, 78.1140983],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_1d9b3f989f9f448eb8d01c4080fa8129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb6c91f4fd264acaba9faab962515bae = $(`<div id="html_fb6c91f4fd264acaba9faab962515bae" style="width: 100.0%; height: 100.0%;">Madurai,India Air Quality 46 in year 2011  9.9261153,78.1140983</div>`)[0];
+            popup_1d9b3f989f9f448eb8d01c4080fa8129.setContent(html_fb6c91f4fd264acaba9faab962515bae);
+        
+
+        circle_marker_d3d57b7f72e74784a1aecd0d8a086c4f.bindPopup(popup_1d9b3f989f9f448eb8d01c4080fa8129)
+        ;
+
+        
+    
+    
+            var circle_marker_68ce1c88e3bc4d8aa3642c36a15dd8ec = L.circleMarker(
+                [18.080753, 73.42438],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_a21727d1a268415ea4d7ccc101073af4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_541ae8f1c29146adb9841376365f5168 = $(`<div id="html_541ae8f1c29146adb9841376365f5168" style="width: 100.0%; height: 100.0%;">Mahad,India Air Quality 109 in year 2010  18.080753,73.42438</div>`)[0];
+            popup_a21727d1a268415ea4d7ccc101073af4.setContent(html_541ae8f1c29146adb9841376365f5168);
+        
+
+        circle_marker_68ce1c88e3bc4d8aa3642c36a15dd8ec.bindPopup(popup_a21727d1a268415ea4d7ccc101073af4)
+        ;
+
+        
+    
+    
+            var circle_marker_d8dc4d1f7e29492aa6ae30326add117a = L.circleMarker(
+                [27.2895321, 95.6727142],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9c6764fdaa0f4751a11a09812841d0ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f5ebc5d461541a7bef1b6dcbddb3ef9 = $(`<div id="html_3f5ebc5d461541a7bef1b6dcbddb3ef9" style="width: 100.0%; height: 100.0%;">Margherita,India Air Quality 54 in year 2012  27.2895321,95.6727142</div>`)[0];
+            popup_9c6764fdaa0f4751a11a09812841d0ed.setContent(html_3f5ebc5d461541a7bef1b6dcbddb3ef9);
+        
+
+        circle_marker_d8dc4d1f7e29492aa6ae30326add117a.bindPopup(popup_9c6764fdaa0f4751a11a09812841d0ed)
+        ;
+
+        
+    
+    
+            var circle_marker_caccb9e667894b38bb3a58875d211e8e = L.circleMarker(
+                [28.9963296, 77.7061915],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_19854997b4954c68ba9f0088eb2172f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73154c20c1344608862cdb95ac0018a8 = $(`<div id="html_73154c20c1344608862cdb95ac0018a8" style="width: 100.0%; height: 100.0%;">Meerut,India Air Quality 126 in year 2010  28.9963296,77.7061915</div>`)[0];
+            popup_19854997b4954c68ba9f0088eb2172f9.setContent(html_73154c20c1344608862cdb95ac0018a8);
+        
+
+        circle_marker_caccb9e667894b38bb3a58875d211e8e.bindPopup(popup_19854997b4954c68ba9f0088eb2172f9)
+        ;
+
+        
+    
+    
+            var circle_marker_06f5aa917aa74ff5862f297a77119a4b = L.circleMarker(
+                [18.9387711, 72.8353355],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_de6312e931a94922aa5879c08b93a51a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_432f171700864c21ba9b358ee60ea9ee = $(`<div id="html_432f171700864c21ba9b358ee60ea9ee" style="width: 100.0%; height: 100.0%;">Mumbai,India Air Quality 136 in year 2010  18.9387711,72.8353355</div>`)[0];
+            popup_de6312e931a94922aa5879c08b93a51a.setContent(html_432f171700864c21ba9b358ee60ea9ee);
+        
+
+        circle_marker_06f5aa917aa74ff5862f297a77119a4b.bindPopup(popup_de6312e931a94922aa5879c08b93a51a)
+        ;
+
+        
+    
+    
+            var circle_marker_6f9b23361b664e388e43c6e627eb2133 = L.circleMarker(
+                [26.3482238, 92.6858215],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_93f90093237e497a96d94d08dc034f33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c784edefcb1b418c9f9164c6075ca185 = $(`<div id="html_c784edefcb1b418c9f9164c6075ca185" style="width: 100.0%; height: 100.0%;">Nagaon,India Air Quality 79 in year 2012  26.3482238,92.6858215</div>`)[0];
+            popup_93f90093237e497a96d94d08dc034f33.setContent(html_c784edefcb1b418c9f9164c6075ca185);
+        
+
+        circle_marker_6f9b23361b664e388e43c6e627eb2133.bindPopup(popup_93f90093237e497a96d94d08dc034f33)
+        ;
+
+        
+    
+    
+            var circle_marker_0628ce32018e4323bc31b24736c70d8e = L.circleMarker(
+                [23.4578957, 75.4191114],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_42b8df2dba3e49f5bf6ee022d582e112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f69d5eb8a38941499ee17cf542b2accb = $(`<div id="html_f69d5eb8a38941499ee17cf542b2accb" style="width: 100.0%; height: 100.0%;">Nagda,India Air Quality 114 in year 2012  23.4578957,75.4191114</div>`)[0];
+            popup_42b8df2dba3e49f5bf6ee022d582e112.setContent(html_f69d5eb8a38941499ee17cf542b2accb);
+        
+
+        circle_marker_0628ce32018e4323bc31b24736c70d8e.bindPopup(popup_42b8df2dba3e49f5bf6ee022d582e112)
+        ;
+
+        
+    
+    
+            var circle_marker_2807d467e2ee41bc9cff9f54d4f9d3fa = L.circleMarker(
+                [21.1500964, 79.0127048991187],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_eb408001bf7e44f99d2bfde6b63dd4b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f33c0ac94dad492b9861a756e4b4e15d = $(`<div id="html_f33c0ac94dad492b9861a756e4b4e15d" style="width: 100.0%; height: 100.0%;">Nagpur,India Air Quality 118 in year 2010  21.1500964,79.0127048991187</div>`)[0];
+            popup_eb408001bf7e44f99d2bfde6b63dd4b6.setContent(html_f33c0ac94dad492b9861a756e4b4e15d);
+        
+
+        circle_marker_2807d467e2ee41bc9cff9f54d4f9d3fa.bindPopup(popup_eb408001bf7e44f99d2bfde6b63dd4b6)
+        ;
+
+        
+    
+    
+            var circle_marker_92a99f62786d4625be0f73373cb30eed = L.circleMarker(
+                [30.5601803, 77.2923596],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_4f10ed1d61cc40a8b81ef687f45a2213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a119a3f07554536a04cbd0406ea2517 = $(`<div id="html_7a119a3f07554536a04cbd0406ea2517" style="width: 100.0%; height: 100.0%;">Nahan,India Air Quality 110 in year 2012  30.5601803,77.2923596</div>`)[0];
+            popup_4f10ed1d61cc40a8b81ef687f45a2213.setContent(html_7a119a3f07554536a04cbd0406ea2517);
+        
+
+        circle_marker_92a99f62786d4625be0f73373cb30eed.bindPopup(popup_4f10ed1d61cc40a8b81ef687f45a2213)
+        ;
+
+        
+    
+    
+            var circle_marker_adec510c496343c99c4d57655f8164c0 = L.circleMarker(
+                [26.445568, 91.4354335],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_58c7c2ef807a4dbe8279ef02e09827fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a0e5b8d4564d629d12acf1da01d800 = $(`<div id="html_97a0e5b8d4564d629d12acf1da01d800" style="width: 100.0%; height: 100.0%;">Nalbari,India Air Quality 82 in year 2012  26.445568,91.4354335</div>`)[0];
+            popup_58c7c2ef807a4dbe8279ef02e09827fa.setContent(html_97a0e5b8d4564d629d12acf1da01d800);
+        
+
+        circle_marker_adec510c496343c99c4d57655f8164c0.bindPopup(popup_58c7c2ef807a4dbe8279ef02e09827fa)
+        ;
+
+        
+    
+    
+            var circle_marker_ac693b647c564e019e133d70d90cf4a4 = L.circleMarker(
+                [16.8587974, 79.2125049550569],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_74d3f8ab755c485c820ae32523e8af6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca32d8585b341119947c57b11254dff = $(`<div id="html_bca32d8585b341119947c57b11254dff" style="width: 100.0%; height: 100.0%;">Nalgonda ,India Air Quality 78 in year 2012  16.8587974,79.2125049550569</div>`)[0];
+            popup_74d3f8ab755c485c820ae32523e8af6a.setContent(html_bca32d8585b341119947c57b11254dff);
+        
+
+        circle_marker_ac693b647c564e019e133d70d90cf4a4.bindPopup(popup_74d3f8ab755c485c820ae32523e8af6a)
+        ;
+
+        
+    
+    
+            var circle_marker_015ca3436b8c45b2af5dd3c065178efd = L.circleMarker(
+                [20.216667, 74.083333],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5cb897d046474c19afd2cdcb9616dc9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f52e60989644711a448e0a056b6ead7 = $(`<div id="html_6f52e60989644711a448e0a056b6ead7" style="width: 100.0%; height: 100.0%;">Nashik,India Air Quality 103 in year 2010  20.216667,74.083333</div>`)[0];
+            popup_5cb897d046474c19afd2cdcb9616dc9d.setContent(html_6f52e60989644711a448e0a056b6ead7);
+        
+
+        circle_marker_015ca3436b8c45b2af5dd3c065178efd.bindPopup(popup_5cb897d046474c19afd2cdcb9616dc9d)
+        ;
+
+        
+    
+    
+            var circle_marker_9062843e123840baa839a28245364988 = L.circleMarker(
+                [19.0308262, 73.0198537],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_708f322d934e4fe08047b4549401e2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d079373d13ac4a6dbc5982599cf08210 = $(`<div id="html_d079373d13ac4a6dbc5982599cf08210" style="width: 100.0%; height: 100.0%;">Navi Mumbai,India Air Quality 104 in year 2010  19.0308262,73.0198537</div>`)[0];
+            popup_708f322d934e4fe08047b4549401e2d5.setContent(html_d079373d13ac4a6dbc5982599cf08210);
+        
+
+        circle_marker_9062843e123840baa839a28245364988.bindPopup(popup_708f322d934e4fe08047b4549401e2d5)
+        ;
+
+        
+    
+    
+            var circle_marker_bb3574344314492cab3ef14fd8052781 = L.circleMarker(
+                [31.3813717, 76.3454147],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0a9624a7038a4aa088d15bca7b77a2b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42fa6fc6c22d459bbe04b8d2bafc26a6 = $(`<div id="html_42fa6fc6c22d459bbe04b8d2bafc26a6" style="width: 100.0%; height: 100.0%;">Naya Nangal,India Air Quality 96 in year 2012  31.3813717,76.3454147</div>`)[0];
+            popup_0a9624a7038a4aa088d15bca7b77a2b5.setContent(html_42fa6fc6c22d459bbe04b8d2bafc26a6);
+        
+
+        circle_marker_bb3574344314492cab3ef14fd8052781.bindPopup(popup_0a9624a7038a4aa088d15bca7b77a2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_024c86f6d32e44879be9c5a952df3145 = L.circleMarker(
+                [14.4493717, 79.9873763],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_c5abb3ec41a742f1892e5e94eee50a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38aa5d019b1c465184778c24fe4c946f = $(`<div id="html_38aa5d019b1c465184778c24fe4c946f" style="width: 100.0%; height: 100.0%;">Nellore,India Air Quality 63 in year 2012  14.4493717,79.9873763</div>`)[0];
+            popup_c5abb3ec41a742f1892e5e94eee50a42.setContent(html_38aa5d019b1c465184778c24fe4c946f);
+        
+
+        circle_marker_024c86f6d32e44879be9c5a952df3145.bindPopup(popup_c5abb3ec41a742f1892e5e94eee50a42)
+        ;
+
+        
+    
+    
+            var circle_marker_6e44a9d74e12430d92a717be618fe45f = L.circleMarker(
+                [28.5726442, 77.3547609],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_82c8a2cf0cd640469600e74f8cc18472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e4ba7edaebc47bc86fda1c4edab3b12 = $(`<div id="html_6e4ba7edaebc47bc86fda1c4edab3b12" style="width: 100.0%; height: 100.0%;">Noida,India Air Quality 133 in year 2012  28.5726442,77.3547609</div>`)[0];
+            popup_82c8a2cf0cd640469600e74f8cc18472.setContent(html_6e4ba7edaebc47bc86fda1c4edab3b12);
+        
+
+        circle_marker_6e44a9d74e12430d92a717be618fe45f.bindPopup(popup_82c8a2cf0cd640469600e74f8cc18472)
+        ;
+
+        
+    
+    
+            var circle_marker_6454b4bc385f4821b844827b7682a3ee = L.circleMarker(
+                [27.236211, 94.1038765],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_1fcbe928e0ac429aba2a8ff8834ad888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d194a2bbc3394eee877194d7057d94ae = $(`<div id="html_d194a2bbc3394eee877194d7057d94ae" style="width: 100.0%; height: 100.0%;">North Lakhimpur Town,India Air Quality 72 in year 2012  27.236211,94.1038765</div>`)[0];
+            popup_1fcbe928e0ac429aba2a8ff8834ad888.setContent(html_d194a2bbc3394eee877194d7057d94ae);
+        
+
+        circle_marker_6454b4bc385f4821b844827b7682a3ee.bindPopup(popup_1fcbe928e0ac429aba2a8ff8834ad888)
+        ;
+
+        
+    
+    
+            var circle_marker_77f70c2dde0b4564b62f04a9c05110fb = L.circleMarker(
+                [15.4989946, 73.8282141],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0c0478e304614269b385ec0b7417f7b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9109f1aa23f146c6ade1624889342535 = $(`<div id="html_9109f1aa23f146c6ade1624889342535" style="width: 100.0%; height: 100.0%;">Panaji,India Air Quality 116 in year 2012  15.4989946,73.8282141</div>`)[0];
+            popup_0c0478e304614269b385ec0b7417f7b8.setContent(html_9109f1aa23f146c6ade1624889342535);
+        
+
+        circle_marker_77f70c2dde0b4564b62f04a9c05110fb.bindPopup(popup_0c0478e304614269b385ec0b7417f7b8)
+        ;
+
+        
+    
+    
+            var circle_marker_39cc93f22a2b477dbb65b35a0d096481 = L.circleMarker(
+                [30.8400872, 76.958176],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_fa1ae558b9eb40b793b3f6eb28030f74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d77eac7a835649499924a2cec9cdda3a = $(`<div id="html_d77eac7a835649499924a2cec9cdda3a" style="width: 100.0%; height: 100.0%;">Parwanoo,India Air Quality 70 in year 2011  30.8400872,76.958176</div>`)[0];
+            popup_fa1ae558b9eb40b793b3f6eb28030f74.setContent(html_d77eac7a835649499924a2cec9cdda3a);
+        
+
+        circle_marker_39cc93f22a2b477dbb65b35a0d096481.bindPopup(popup_fa1ae558b9eb40b793b3f6eb28030f74)
+        ;
+
+        
+    
+    
+            var circle_marker_2881a482656242ecb529b7a9639912d6 = L.circleMarker(
+                [17.5286092, 78.2674254],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8dd074588e964d89bfa0e7c85567278f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7f1af4a18a34309a937d05e1de9941a = $(`<div id="html_a7f1af4a18a34309a937d05e1de9941a" style="width: 100.0%; height: 100.0%;">Patancheru,India Air Quality 109 in year 2012  17.5286092,78.2674254</div>`)[0];
+            popup_8dd074588e964d89bfa0e7c85567278f.setContent(html_a7f1af4a18a34309a937d05e1de9941a);
+        
+
+        circle_marker_2881a482656242ecb529b7a9639912d6.bindPopup(popup_8dd074588e964d89bfa0e7c85567278f)
+        ;
+
+        
+    
+    
+            var circle_marker_5e4fbb58b2194f5a80679a49bf04c300 = L.circleMarker(
+                [9.2655337, 76.7871514],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_73bb41ca8b714191835cdd49bffa44db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_272a89b168cb4187bd0b009de706fe3f = $(`<div id="html_272a89b168cb4187bd0b009de706fe3f" style="width: 100.0%; height: 100.0%;">Pathanamthitta,India Air Quality 23 in year 2012  9.2655337,76.7871514</div>`)[0];
+            popup_73bb41ca8b714191835cdd49bffa44db.setContent(html_272a89b168cb4187bd0b009de706fe3f);
+        
+
+        circle_marker_5e4fbb58b2194f5a80679a49bf04c300.bindPopup(popup_73bb41ca8b714191835cdd49bffa44db)
+        ;
+
+        
+    
+    
+            var circle_marker_a61f77f29a5f424985710fc753ec9de8 = L.circleMarker(
+                [30.2389556, 76.3309372129232],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_f8db311c7bfa40b8bf3b156ef39a326b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ae6e062654b488587bcc2e1434fa273 = $(`<div id="html_3ae6e062654b488587bcc2e1434fa273" style="width: 100.0%; height: 100.0%;">Patiala,India Air Quality 91 in year 2012  30.2389556,76.3309372129232</div>`)[0];
+            popup_f8db311c7bfa40b8bf3b156ef39a326b.setContent(html_3ae6e062654b488587bcc2e1434fa273);
+        
+
+        circle_marker_a61f77f29a5f424985710fc753ec9de8.bindPopup(popup_f8db311c7bfa40b8bf3b156ef39a326b)
+        ;
+
+        
+    
+    
+            var circle_marker_cc647b73c96d49188754ac3d2d811d7c = L.circleMarker(
+                [25.6093239, 85.1235252],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_12212a5dba2747dcb4e247a7e0705ce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d0fd54c259447a78b5dcebc91b22e1b = $(`<div id="html_0d0fd54c259447a78b5dcebc91b22e1b" style="width: 100.0%; height: 100.0%;">Patna,India Air Quality 164 in year 2011  25.6093239,85.1235252</div>`)[0];
+            popup_12212a5dba2747dcb4e247a7e0705ce2.setContent(html_0d0fd54c259447a78b5dcebc91b22e1b);
+        
+
+        circle_marker_cc647b73c96d49188754ac3d2d811d7c.bindPopup(popup_12212a5dba2747dcb4e247a7e0705ce2)
+        ;
+
+        
+    
+    
+            var circle_marker_a4f24e16b4024cafbaaf4cf8aec46172 = L.circleMarker(
+                [11.9340568, 79.8306447],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_90c4886c831443ecb1752a3eaccb92e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8e551e4fbe54de0becf6925ea6f9b76 = $(`<div id="html_a8e551e4fbe54de0becf6925ea6f9b76" style="width: 100.0%; height: 100.0%;">Pondicherry,India Air Quality 39 in year 2009  11.9340568,79.8306447</div>`)[0];
+            popup_90c4886c831443ecb1752a3eaccb92e3.setContent(html_a8e551e4fbe54de0becf6925ea6f9b76);
+        
+
+        circle_marker_a4f24e16b4024cafbaaf4cf8aec46172.bindPopup(popup_90c4886c831443ecb1752a3eaccb92e3)
+        ;
+
+        
+    
+    
+            var circle_marker_5b4af758b91f40859dc452653f833697 = L.circleMarker(
+                [18.5203062, 73.8543185],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_11a02155658f42df8ac2935b52e95e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d9ea0ccacba42d4839bf00d7f39edcc = $(`<div id="html_6d9ea0ccacba42d4839bf00d7f39edcc" style="width: 100.0%; height: 100.0%;">Pune,India Air Quality 134 in year 2010  18.5203062,73.8543185</div>`)[0];
+            popup_11a02155658f42df8ac2935b52e95e69.setContent(html_6d9ea0ccacba42d4839bf00d7f39edcc);
+        
+
+        circle_marker_5b4af758b91f40859dc452653f833697.bindPopup(popup_11a02155658f42df8ac2935b52e95e69)
+        ;
+
+        
+    
+    
+            var circle_marker_102a00a958d04d11a3105b44ef1bd510 = L.circleMarker(
+                [20.6985098, 82.1602584107996],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_c713dc9f92d345858f8f527850ab0d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdbaf2de82fa4a339722a4ac832bfd57 = $(`<div id="html_cdbaf2de82fa4a339722a4ac832bfd57" style="width: 100.0%; height: 100.0%;">Raipur,India Air Quality 305 in year 2012  20.6985098,82.1602584107996</div>`)[0];
+            popup_c713dc9f92d345858f8f527850ab0d5f.setContent(html_cdbaf2de82fa4a339722a4ac832bfd57);
+        
+
+        circle_marker_102a00a958d04d11a3105b44ef1bd510.bindPopup(popup_c713dc9f92d345858f8f527850ab0d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_9b6aa805fe094245910e4f6040713850 = L.circleMarker(
+                [22.3045769, 70.802161],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0f0756bb1fea4411a81997138a74f9c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cc8611b662c402c8435fa34f7d191c6 = $(`<div id="html_6cc8611b662c402c8435fa34f7d191c6" style="width: 100.0%; height: 100.0%;">Rajkot,India Air Quality 75 in year 2010  22.3045769,70.802161</div>`)[0];
+            popup_0f0756bb1fea4411a81997138a74f9c2.setContent(html_6cc8611b662c402c8435fa34f7d191c6);
+        
+
+        circle_marker_9b6aa805fe094245910e4f6040713850.bindPopup(popup_0f0756bb1fea4411a81997138a74f9c2)
+        ;
+
+        
+    
+    
+            var circle_marker_0f0850e5a1bc4d5b972cbd2a9c157345 = L.circleMarker(
+                [18.7604337, 79.4810593],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_c0aa4e892ad646909a5a077aa132bd98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8cd157fde8d46db8e274cd40c4c00fe = $(`<div id="html_b8cd157fde8d46db8e274cd40c4c00fe" style="width: 100.0%; height: 100.0%;">Ramagundam,India Air Quality 83 in year 2012  18.7604337,79.4810593</div>`)[0];
+            popup_c0aa4e892ad646909a5a077aa132bd98.setContent(html_b8cd157fde8d46db8e274cd40c4c00fe);
+        
+
+        circle_marker_0f0850e5a1bc4d5b972cbd2a9c157345.bindPopup(popup_c0aa4e892ad646909a5a077aa132bd98)
+        ;
+
+        
+    
+    
+            var circle_marker_5bc03f402d18425fa36ca05a549df517 = L.circleMarker(
+                [19.1696, 83.418],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_ecad7b4e80044f589fb9fb875aea832d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_671f9064533648629b9e4e299edf3280 = $(`<div id="html_671f9064533648629b9e4e299edf3280" style="width: 100.0%; height: 100.0%;">Rayagada,India Air Quality 62 in year 2012  19.1696,83.418</div>`)[0];
+            popup_ecad7b4e80044f589fb9fb875aea832d.setContent(html_671f9064533648629b9e4e299edf3280);
+        
+
+        circle_marker_5bc03f402d18425fa36ca05a549df517.bindPopup(popup_ecad7b4e80044f589fb9fb875aea832d)
+        ;
+
+        
+    
+    
+            var circle_marker_462878c2d80842c4882bfeb95e4c63c0 = L.circleMarker(
+                [30.1086537, 78.2916193],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_521f83b9ab6e43338257de5d024634e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_094484ef536545858d1da61e61d32992 = $(`<div id="html_094484ef536545858d1da61e61d32992" style="width: 100.0%; height: 100.0%;">Rishikesh,India Air Quality 103 in year 2011  30.1086537,78.2916193</div>`)[0];
+            popup_521f83b9ab6e43338257de5d024634e6.setContent(html_094484ef536545858d1da61e61d32992);
+        
+
+        circle_marker_462878c2d80842c4882bfeb95e4c63c0.bindPopup(popup_521f83b9ab6e43338257de5d024634e6)
+        ;
+
+        
+    
+    
+            var circle_marker_eb352488b074490ebce089ec81c9f8d0 = L.circleMarker(
+                [22.8432502, 80.7248234],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5b23a24338dc4a9b88c4f20ff69b254a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f514c99abd9e485ba42bd3383d3cf17b = $(`<div id="html_f514c99abd9e485ba42bd3383d3cf17b" style="width: 100.0%; height: 100.0%;">Roha,India Air Quality 121 in year 2010  22.8432502,80.7248234</div>`)[0];
+            popup_5b23a24338dc4a9b88c4f20ff69b254a.setContent(html_f514c99abd9e485ba42bd3383d3cf17b);
+        
+
+        circle_marker_eb352488b074490ebce089ec81c9f8d0.bindPopup(popup_5b23a24338dc4a9b88c4f20ff69b254a)
+        ;
+
+        
+    
+    
+            var circle_marker_2147a18ee8b1437fa9f94f44fd9ba78c = L.circleMarker(
+                [22.2309255, 84.8678705],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_7dd6a9ec35ac46489195d3bef1f6cc01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc28c37697b64b6d8eb1df7a49dca0a8 = $(`<div id="html_bc28c37697b64b6d8eb1df7a49dca0a8" style="width: 100.0%; height: 100.0%;">Rourkela,India Air Quality 104 in year 2011  22.2309255,84.8678705</div>`)[0];
+            popup_7dd6a9ec35ac46489195d3bef1f6cc01.setContent(html_bc28c37697b64b6d8eb1df7a49dca0a8);
+        
+
+        circle_marker_2147a18ee8b1437fa9f94f44fd9ba78c.bindPopup(popup_7dd6a9ec35ac46489195d3bef1f6cc01)
+        ;
+
+        
+    
+    
+            var circle_marker_a24554c47cad4082b4305c47c032808c = L.circleMarker(
+                [11.6612012, 78.1602498],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_88714a90b0f04d2e86387f4c755f1804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d640cfacf318470a98594f09c2c69312 = $(`<div id="html_d640cfacf318470a98594f09c2c69312" style="width: 100.0%; height: 100.0%;">Salem,India Air Quality 61 in year 2011  11.6612012,78.1602498</div>`)[0];
+            popup_88714a90b0f04d2e86387f4c755f1804.setContent(html_d640cfacf318470a98594f09c2c69312);
+        
+
+        circle_marker_a24554c47cad4082b4305c47c032808c.bindPopup(popup_88714a90b0f04d2e86387f4c755f1804)
+        ;
+
+        
+    
+    
+            var circle_marker_ff722c6b93ac435a8c80e369e3336299 = L.circleMarker(
+                [21.4, 83.883333],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_37cad501abee415b9f6117cccc846049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73e20c7737bc4b4b8cd985464f724036 = $(`<div id="html_73e20c7737bc4b4b8cd985464f724036" style="width: 100.0%; height: 100.0%;">Sambalpur,India Air Quality 60 in year 2012  21.4,83.883333</div>`)[0];
+            popup_37cad501abee415b9f6117cccc846049.setContent(html_73e20c7737bc4b4b8cd985464f724036);
+        
+
+        circle_marker_ff722c6b93ac435a8c80e369e3336299.bindPopup(popup_37cad501abee415b9f6117cccc846049)
+        ;
+
+        
+    
+    
+            var circle_marker_49b9a1b2bcd043df982275da613400ae = L.circleMarker(
+                [16.8502534, 74.5948885],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_89ffcb768b1b4c30ac3d68d370bb9ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7273f38e94340c494415ee481e19c9b = $(`<div id="html_f7273f38e94340c494415ee481e19c9b" style="width: 100.0%; height: 100.0%;">Sangli,India Air Quality 91 in year 2010  16.8502534,74.5948885</div>`)[0];
+            popup_89ffcb768b1b4c30ac3d68d370bb9ea3.setContent(html_f7273f38e94340c494415ee481e19c9b);
+        
+
+        circle_marker_49b9a1b2bcd043df982275da613400ae.bindPopup(popup_89ffcb768b1b4c30ac3d68d370bb9ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_88409ca856cf4bb29c71825755262094 = L.circleMarker(
+                [24.5, 81.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_18071b0a402346849730b80a1d0d7c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5ed8dfa72374f0eac187f812d4fb36a = $(`<div id="html_f5ed8dfa72374f0eac187f812d4fb36a" style="width: 100.0%; height: 100.0%;">Satna,India Air Quality 99 in year 2011  24.5,81.0</div>`)[0];
+            popup_18071b0a402346849730b80a1d0d7c69.setContent(html_f5ed8dfa72374f0eac187f812d4fb36a);
+        
+
+        circle_marker_88409ca856cf4bb29c71825755262094.bindPopup(popup_18071b0a402346849730b80a1d0d7c69)
+        ;
+
+        
+    
+    
+            var circle_marker_a99d0d6bcd174beb9c0f172a48362d30 = L.circleMarker(
+                [25.5760154, 91.8828027],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_5b4c41795003436c9a52542b372da099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deb1c4949ab0449fa44868a69796bf75 = $(`<div id="html_deb1c4949ab0449fa44868a69796bf75" style="width: 100.0%; height: 100.0%;">Shillong,India Air Quality 78 in year 2011  25.5760154,91.8828027</div>`)[0];
+            popup_5b4c41795003436c9a52542b372da099.setContent(html_deb1c4949ab0449fa44868a69796bf75);
+        
+
+        circle_marker_a99d0d6bcd174beb9c0f172a48362d30.bindPopup(popup_5b4c41795003436c9a52542b372da099)
+        ;
+
+        
+    
+    
+            var circle_marker_2c570cd17779466cbc8f5631b361d463 = L.circleMarker(
+                [31.1041526, 77.1709729],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_9a71ef9aac0b45c5b88d0cd3eebbb4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bf63d0f3c6a4844b77ba40a5e57cbfe = $(`<div id="html_0bf63d0f3c6a4844b77ba40a5e57cbfe" style="width: 100.0%; height: 100.0%;">Shimla,India Air Quality 68 in year 2011  31.1041526,77.1709729</div>`)[0];
+            popup_9a71ef9aac0b45c5b88d0cd3eebbb4a0.setContent(html_0bf63d0f3c6a4844b77ba40a5e57cbfe);
+        
+
+        circle_marker_2c570cd17779466cbc8f5631b361d463.bindPopup(popup_9a71ef9aac0b45c5b88d0cd3eebbb4a0)
+        ;
+
+        
+    
+    
+            var circle_marker_af522c35931e491eaf99a81b0d08af97 = L.circleMarker(
+                [26.9836004, 94.6400392809356],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_30c4d30f4e6646509ff341c61a9bf1da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6b4fa77ce414a3a9c8dd1dae745620a = $(`<div id="html_e6b4fa77ce414a3a9c8dd1dae745620a" style="width: 100.0%; height: 100.0%;">Sibsagar,India Air Quality 109 in year 2012  26.9836004,94.6400392809356</div>`)[0];
+            popup_30c4d30f4e6646509ff341c61a9bf1da.setContent(html_e6b4fa77ce414a3a9c8dd1dae745620a);
+        
+
+        circle_marker_af522c35931e491eaf99a81b0d08af97.bindPopup(popup_30c4d30f4e6646509ff341c61a9bf1da)
+        ;
+
+        
+    
+    
+            var circle_marker_1d7512b122f64a22a77feac185769c6c = L.circleMarker(
+                [24.829588, 92.797148],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_98b57f48b02541a79dda77872715a349 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdcfabf3dab642068c5d3ccbd01771ca = $(`<div id="html_bdcfabf3dab642068c5d3ccbd01771ca" style="width: 100.0%; height: 100.0%;">Silchar,India Air Quality 91 in year 2012  24.829588,92.797148</div>`)[0];
+            popup_98b57f48b02541a79dda77872715a349.setContent(html_bdcfabf3dab642068c5d3ccbd01771ca);
+        
+
+        circle_marker_1d7512b122f64a22a77feac185769c6c.bindPopup(popup_98b57f48b02541a79dda77872715a349)
+        ;
+
+        
+    
+    
+            var circle_marker_cb635cd6a5c54e04826b8b0a8f9cc86c = L.circleMarker(
+                [24.1974432, 82.6661453],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_1890ced5409f4953bc37f5fc9daf2720 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d3b9a97f8b471699b6e1b5e42efbeb = $(`<div id="html_77d3b9a97f8b471699b6e1b5e42efbeb" style="width: 100.0%; height: 100.0%;">Singrauli,India Air Quality 60 in year 2012  24.1974432,82.6661453</div>`)[0];
+            popup_1890ced5409f4953bc37f5fc9daf2720.setContent(html_77d3b9a97f8b471699b6e1b5e42efbeb);
+        
+
+        circle_marker_cb635cd6a5c54e04826b8b0a8f9cc86c.bindPopup(popup_1890ced5409f4953bc37f5fc9daf2720)
+        ;
+
+        
+    
+    
+            var circle_marker_7793bd3ce7d244a9abf5d572302a501c = L.circleMarker(
+                [17.6715272, 75.8975502],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_23f77480e59b435596a15e8ab3d0e9aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4455aa50a8f14bd7b94387cf362ff284 = $(`<div id="html_4455aa50a8f14bd7b94387cf362ff284" style="width: 100.0%; height: 100.0%;">Solapur,India Air Quality 80 in year 2010  17.6715272,75.8975502</div>`)[0];
+            popup_23f77480e59b435596a15e8ab3d0e9aa.setContent(html_4455aa50a8f14bd7b94387cf362ff284);
+        
+
+        circle_marker_7793bd3ce7d244a9abf5d572302a501c.bindPopup(popup_23f77480e59b435596a15e8ab3d0e9aa)
+        ;
+
+        
+    
+    
+            var circle_marker_e275f37df82646a08eda32c316a502a1 = L.circleMarker(
+                [21.1864607, 72.8081281],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_38f7402b5da547fcb6d207c19bf0424d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7447bb3e84b44bf19466feb31fc9f450 = $(`<div id="html_7447bb3e84b44bf19466feb31fc9f450" style="width: 100.0%; height: 100.0%;">Surat,India Air Quality 94 in year 2012  21.1864607,72.8081281</div>`)[0];
+            popup_38f7402b5da547fcb6d207c19bf0424d.setContent(html_7447bb3e84b44bf19466feb31fc9f450);
+        
+
+        circle_marker_e275f37df82646a08eda32c316a502a1.bindPopup(popup_38f7402b5da547fcb6d207c19bf0424d)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4c667da8cd4151881b0b850f36dd44 = L.circleMarker(
+                [26.6229928, 92.7976082],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_41327ef6b1eb4c339eca8eb7453e0777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee02666694e4491aadc8674ec2c7a088 = $(`<div id="html_ee02666694e4491aadc8674ec2c7a088" style="width: 100.0%; height: 100.0%;">Tezpur,India Air Quality 69 in year 2012  26.6229928,92.7976082</div>`)[0];
+            popup_41327ef6b1eb4c339eca8eb7453e0777.setContent(html_ee02666694e4491aadc8674ec2c7a088);
+        
+
+        circle_marker_4f4c667da8cd4151881b0b850f36dd44.bindPopup(popup_41327ef6b1eb4c339eca8eb7453e0777)
+        ;
+
+        
+    
+    
+            var circle_marker_28b5f1be9cab46558c92a2707d0aef34 = L.circleMarker(
+                [19.1943294, 72.9701779],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_cc7f2d4ffd2943b999e72be8f73897be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c7606ebac74463b96949eeafa294cf8 = $(`<div id="html_4c7606ebac74463b96949eeafa294cf8" style="width: 100.0%; height: 100.0%;">Thane,India Air Quality 49 in year 2010  19.1943294,72.9701779</div>`)[0];
+            popup_cc7f2d4ffd2943b999e72be8f73897be.setContent(html_4c7606ebac74463b96949eeafa294cf8);
+        
+
+        circle_marker_28b5f1be9cab46558c92a2707d0aef34.bindPopup(popup_cc7f2d4ffd2943b999e72be8f73897be)
+        ;
+
+        
+    
+    
+            var circle_marker_acd346d19fcb4fd8871d80ec7846457b = L.circleMarker(
+                [8.8052602, 78.1452745],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_0f48e13b42b54745865c6b34a93ee8ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3804d076baaf4a7db5478c377a87a0b4 = $(`<div id="html_3804d076baaf4a7db5478c377a87a0b4" style="width: 100.0%; height: 100.0%;">Thoothukudi,India Air Quality 92 in year 2011  8.8052602,78.1452745</div>`)[0];
+            popup_0f48e13b42b54745865c6b34a93ee8ea.setContent(html_3804d076baaf4a7db5478c377a87a0b4);
+        
+
+        circle_marker_acd346d19fcb4fd8871d80ec7846457b.bindPopup(popup_0f48e13b42b54745865c6b34a93ee8ea)
+        ;
+
+        
+    
+    
+            var circle_marker_186a8165b6304000a315db5de34570ce = L.circleMarker(
+                [10.5256633, 76.2131442],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_74c82535d3f2414eb02c133e9e7133cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dac256d346394394b642e835be55be73 = $(`<div id="html_dac256d346394394b642e835be55be73" style="width: 100.0%; height: 100.0%;">Thrissur,India Air Quality 73 in year 2012  10.5256633,76.2131442</div>`)[0];
+            popup_74c82535d3f2414eb02c133e9e7133cd.setContent(html_dac256d346394394b642e835be55be73);
+        
+
+        circle_marker_186a8165b6304000a315db5de34570ce.bindPopup(popup_74c82535d3f2414eb02c133e9e7133cd)
+        ;
+
+        
+    
+    
+            var circle_marker_a241a855e94b40faa84638aa8e51e87c = L.circleMarker(
+                [27.4879722, 95.3601855],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_39b241d9e79b4821a5799cde5a7ed023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea5297391694d49a90603ca4f94179d = $(`<div id="html_0ea5297391694d49a90603ca4f94179d" style="width: 100.0%; height: 100.0%;">Tinsukia,India Air Quality 57 in year 2012  27.4879722,95.3601855</div>`)[0];
+            popup_39b241d9e79b4821a5799cde5a7ed023.setContent(html_0ea5297391694d49a90603ca4f94179d);
+        
+
+        circle_marker_a241a855e94b40faa84638aa8e51e87c.bindPopup(popup_39b241d9e79b4821a5799cde5a7ed023)
+        ;
+
+        
+    
+    
+            var circle_marker_072a5fcfc22242449ef98892745bbb80 = L.circleMarker(
+                [8.5058909, 76.9570481],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8dfb216575a14669858231b3efab90c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cadf3056bc664264b5b970fad11a24c6 = $(`<div id="html_cadf3056bc664264b5b970fad11a24c6" style="width: 100.0%; height: 100.0%;">Trivandrum,India Air Quality 52 in year 2012  8.5058909,76.9570481</div>`)[0];
+            popup_8dfb216575a14669858231b3efab90c5.setContent(html_cadf3056bc664264b5b970fad11a24c6);
+        
+
+        circle_marker_072a5fcfc22242449ef98892745bbb80.bindPopup(popup_8dfb216575a14669858231b3efab90c5)
+        ;
+
+        
+    
+    
+            var circle_marker_b027fd2bb3484d64acaf70ac031061ef = L.circleMarker(
+                [25.517377, 90.2066783],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_686bd329245443bebc5a50d1f7e09275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aab24f817424be78deae80de1ccdda7 = $(`<div id="html_8aab24f817424be78deae80de1ccdda7" style="width: 100.0%; height: 100.0%;">Tura,India Air Quality 57 in year 2011  25.517377,90.2066783</div>`)[0];
+            popup_686bd329245443bebc5a50d1f7e09275.setContent(html_8aab24f817424be78deae80de1ccdda7);
+        
+
+        circle_marker_b027fd2bb3484d64acaf70ac031061ef.bindPopup(popup_686bd329245443bebc5a50d1f7e09275)
+        ;
+
+        
+    
+    
+            var circle_marker_002bb28243344833a05031f313ec984f = L.circleMarker(
+                [24.578721, 73.6862571],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_3b2a3b133eba4a0ca8e39339e79d89c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c23bb46dfba2481aa02a5b4496088007 = $(`<div id="html_c23bb46dfba2481aa02a5b4496088007" style="width: 100.0%; height: 100.0%;">Udaipur,India Air Quality 143 in year 2011  24.578721,73.6862571</div>`)[0];
+            popup_3b2a3b133eba4a0ca8e39339e79d89c7.setContent(html_c23bb46dfba2481aa02a5b4496088007);
+        
+
+        circle_marker_002bb28243344833a05031f313ec984f.bindPopup(popup_3b2a3b133eba4a0ca8e39339e79d89c7)
+        ;
+
+        
+    
+    
+            var circle_marker_3d878dd8398c4734afe55a1d5e688941 = L.circleMarker(
+                [23.174597, 75.7851423],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_ea017b8bf6cf40e7a2802136a9914066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46f53f60f84e467cb301db165e431342 = $(`<div id="html_46f53f60f84e467cb301db165e431342" style="width: 100.0%; height: 100.0%;">Ujjain,India Air Quality 60 in year 2012  23.174597,75.7851423</div>`)[0];
+            popup_ea017b8bf6cf40e7a2802136a9914066.setContent(html_46f53f60f84e467cb301db165e431342);
+        
+
+        circle_marker_3d878dd8398c4734afe55a1d5e688941.bindPopup(popup_ea017b8bf6cf40e7a2802136a9914066)
+        ;
+
+        
+    
+    
+            var circle_marker_ffcc197740254122a1e8ee10d9d4d720 = L.circleMarker(
+                [22.297076, 73.1957373],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_ef899a4823854d3ba815d25a8f703437 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba420dd24624625a37c7ffdb3843535 = $(`<div id="html_8ba420dd24624625a37c7ffdb3843535" style="width: 100.0%; height: 100.0%;">Vadodara,India Air Quality 65 in year 2010  22.297076,73.1957373</div>`)[0];
+            popup_ef899a4823854d3ba815d25a8f703437.setContent(html_8ba420dd24624625a37c7ffdb3843535);
+        
+
+        circle_marker_ffcc197740254122a1e8ee10d9d4d720.bindPopup(popup_ef899a4823854d3ba815d25a8f703437)
+        ;
+
+        
+    
+    
+            var circle_marker_28fc002e1de245b6996c27ec8c760747 = L.circleMarker(
+                [20.371603, 72.9166501],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_e3def917282044938f6f3b377e7cba1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_105614504faf4f5a9b676242a1d26b2d = $(`<div id="html_105614504faf4f5a9b676242a1d26b2d" style="width: 100.0%; height: 100.0%;">Vapi,India Air Quality 74 in year 2010  20.371603,72.9166501</div>`)[0];
+            popup_e3def917282044938f6f3b377e7cba1a.setContent(html_105614504faf4f5a9b676242a1d26b2d);
+        
+
+        circle_marker_28fc002e1de245b6996c27ec8c760747.bindPopup(popup_e3def917282044938f6f3b377e7cba1a)
+        ;
+
+        
+    
+    
+            var circle_marker_1df5041492aa46ddadb9dfddf16e6746 = L.circleMarker(
+                [25.3356491, 83.0076292],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_7ad8a856d0ba4d0abee8ace072a8823c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5c316ea23943b4a86652f0f0769e53 = $(`<div id="html_7c5c316ea23943b4a86652f0f0769e53" style="width: 100.0%; height: 100.0%;">Varanasi,India Air Quality 126 in year 2010  25.3356491,83.0076292</div>`)[0];
+            popup_7ad8a856d0ba4d0abee8ace072a8823c.setContent(html_7c5c316ea23943b4a86652f0f0769e53);
+        
+
+        circle_marker_1df5041492aa46ddadb9dfddf16e6746.bindPopup(popup_7ad8a856d0ba4d0abee8ace072a8823c)
+        ;
+
+        
+    
+    
+            var circle_marker_3b52530e05f0473aaa5e108b127c5ea9 = L.circleMarker(
+                [16.5087586, 80.6185102],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_edda1832cb5f4361b708a129a720124b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909ab85d6b9e43688a2b58654132a623 = $(`<div id="html_909ab85d6b9e43688a2b58654132a623" style="width: 100.0%; height: 100.0%;">Vijayawada,India Air Quality 95 in year 2012  16.5087586,80.6185102</div>`)[0];
+            popup_edda1832cb5f4361b708a129a720124b.setContent(html_909ab85d6b9e43688a2b58654132a623);
+        
+
+        circle_marker_3b52530e05f0473aaa5e108b127c5ea9.bindPopup(popup_edda1832cb5f4361b708a129a720124b)
+        ;
+
+        
+    
+    
+            var circle_marker_29acf4e1694c450a9c1096467a48331d = L.circleMarker(
+                [17.9899747, 79.6043994],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(feature_group_579fa59488f243fe9636bc88e69c1b43);
+        
+    
+        var popup_8e7cb284183f47a5b51338fe2b7aa118 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f3caebfa117498ab019e35480138821 = $(`<div id="html_8f3caebfa117498ab019e35480138821" style="width: 100.0%; height: 100.0%;">Warangal,India Air Quality 64 in year 2012  17.9899747,79.6043994</div>`)[0];
+            popup_8e7cb284183f47a5b51338fe2b7aa118.setContent(html_8f3caebfa117498ab019e35480138821);
+        
+
+        circle_marker_29acf4e1694c450a9c1096467a48331d.bindPopup(popup_8e7cb284183f47a5b51338fe2b7aa118)
+        ;
+
+        
+    
+</script>
